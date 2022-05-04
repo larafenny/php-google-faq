@@ -57,7 +57,7 @@ echo '</pre>';*/
 //STAMPO ARRAY CICLANDOLO
 foreach ($faq as $faqClass){
     foreach ($faqClass as $domande){
-        echo($domande);
+        echo($domande.'<br>');
     }
   }
 
