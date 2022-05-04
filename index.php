@@ -47,7 +47,19 @@ $faq=[
     ]
 ];
 
+
+/*
+VERIFICO CHE L'ARRAY SIA CORRETTO
 echo '<pre>';
 print_r($faq);
-echo '</pre>';
+echo '</pre>';*/
+
+//STAMPO ARRAY CICLANDOLO
+foreach ($faq as $faqClass){
+    foreach ($faqClass as $domande){
+        echo($domande);
+    }
+  }
+
+
 ?>
